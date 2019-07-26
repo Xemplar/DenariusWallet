@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#7F7BF1</color>
+    <color name="colorPrimaryDark">#7F7BF1</color>
+    <color name="colorAccent">#F030C1</color>
+    <color name="ui_pink">#F030C1</color>
+    <color name="ui_blue">#7F7BF1</color>
+    <color name="ui_black">#313131</color>
+    <color name="ui_white">#fefefe</color>
+    <color name="ui_offwhite">#f5f5f5</color>
+    <color name="ui_gray">#ADADAD</color>
+    <color name="about_blue">#4CAAE8</color>
+
+    <color name="int_pink">#F030C1</color>
+    <color name="int_orange">#F09819</color>
+    <color name="int_blue">#38B8F2</color>
+    <color name="int_white">#f5f5f5</color>
+
+    <color name="market_up">#7ED321</color>
+    <color name="market_down">#DC2E44</color>
+    <color name="transparent">#00FFFFFF</color>
 </resources>
