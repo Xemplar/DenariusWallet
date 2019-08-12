@@ -1,14 +1,14 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ui_black</item>
+        <item name="colorPrimaryDark">@color/ui_black</item>
         <item name="android:colorBackground">@color/ui_black</item>
         <item name="android:colorForeground">@color/ui_white</item>
         <item name="android:textColorPrimary">@color/ui_white</item>
         <item name="android:textColorPrimaryInverse">@color/ui_gray</item>
-        <item name="colorAccent">@color/int_pink</item>
+        <item name="colorAccent">@color/int_white</item>
         <item name="android:dialogTheme">@style/Dialog</item>
         <item name="android:alertDialogTheme">@style/Dialog</item>
     </style>

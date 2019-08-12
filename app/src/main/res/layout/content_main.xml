@@ -1,5 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
 
+    <ImageView
+        android:id="@+id/qr_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.8"
+        android:adjustViewBounds="true"
+        android:foregroundGravity="center_horizontal"
+        android:padding="20dp"
+        app:srcCompat="@drawable/ic_d" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/qr_code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="DBY1BZawkKT5CJkt6LBkANQ56bu5VUo8eY"
+        android:textColor="@color/ui_white"
+        app:fontFamily="@font/museo" />
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:layout_centerHorizontal="true"
+        android:text="25.99 D"
+        android:textColor="@color/ui_white"
+        android:textSize="22sp"
+        app:fontFamily="@font/museo" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/button_stake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/divider2"
+        android:background="@drawable/btn_add"
+        android:text="Stake" />
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/button_stake"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@id/divider2"
+        android:background="@drawable/btn_add"
+        android:includeFontPadding="false"
+        android:text="Send" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/transactions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/button_stake"
+        android:layout_below="@id/balance"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
 </RelativeLayout>

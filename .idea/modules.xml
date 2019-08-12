@@ -4,6 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DenariusWallet.iml" filepath="$PROJECT_DIR$/DenariusWallet.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.xemplarsoft.dwm.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.xemplarsoft.dwm.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.xemplarsoft.dwm.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.xemplarsoft.dwm.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dwm.iml" filepath="$PROJECT_DIR$/.idea/modules/dwm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dwm.main.iml" filepath="$PROJECT_DIR$/.idea/modules/dwm.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dwm.test.iml" filepath="$PROJECT_DIR$/.idea/modules/dwm.test.iml" />
     </modules>
   </component>
 </project>
