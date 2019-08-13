@@ -76,9 +76,9 @@ public interface CryptoLinkRPC {
 
 	BlockChainInfo getBlockChainInfo() throws CryptocoinException, CommunicationException;
 
-	Integer getBlockCount() throws CryptocoinException, CommunicationException;
+	Long getBlockCount() throws CryptocoinException, CommunicationException;
 
-	String getBlockHash(Integer blockHeight) throws CryptocoinException, CommunicationException;
+	String getBlockHash(Long blockHeight) throws CryptocoinException, CommunicationException;
 
 	List<Tip> getChainTips() throws CryptocoinException, CommunicationException;
 

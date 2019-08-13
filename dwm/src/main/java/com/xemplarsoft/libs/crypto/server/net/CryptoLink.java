@@ -114,7 +114,7 @@ public class CryptoLink {
         }
         return ret;
     }
-    int getBlockCount(){
+    long getBlockCount(){
         try {
             return cli.getBlockCount();
         } catch(Exception e){
@@ -131,7 +131,7 @@ public class CryptoLink {
             return null;
         }
     }
-    Block getBlockAt(int height){
+    Block getBlockAt(long height){
         try {
             return (Block)cli.getBlock(cli.getBlockHash(height), true);
         } catch(Exception e){

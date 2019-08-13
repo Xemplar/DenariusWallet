@@ -43,7 +43,7 @@ public class LiveVarHandler implements Runnable {
     public void run(){
         long[] timediff = new long[BLOCK_AVG];
         double avgTime = 0;
-        int blockHeight = 0, prevHeight = -1;
+        long blockHeight = 0, prevHeight = -1;
 
         for(int i = 0; i < timediff.length; i++){
             timediff[i] = -1;

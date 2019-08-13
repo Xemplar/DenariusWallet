@@ -306,14 +306,14 @@ public class CryptoLinkRPCImpl implements CryptoLinkRPC {
 	}
 
 	@Override
-	public Integer getBlockCount() throws CryptocoinException, CommunicationException {
+	public Long getBlockCount() throws CryptocoinException, CommunicationException {
 		String blockHeightJson = rpcClient.execute(Commands.GET_BLOCK_COUNT.getName());
-		Integer blockHeight = rpcClient.getParser().parseInteger(blockHeightJson);
+		Long blockHeight = rpcClient.getParser().parseLong(blockHeightJson);
 		return blockHeight;
 	}
 
 	@Override
-	public String getBlockHash(Integer blockHeight) throws CryptocoinException, 
+	public String getBlockHash(Long blockHeight) throws CryptocoinException,
 			CommunicationException {
 		String headerHashJson = rpcClient.execute(Commands.GET_BLOCK_HASH.getName(), blockHeight);
 		String headerHash = rpcClient.getParser().parseString(headerHashJson);

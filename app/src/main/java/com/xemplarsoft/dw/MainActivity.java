@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.title_layout);
+        /*setContentView(R.layout.title_layout);
         inflater = LayoutInflater.from(this);
         final RelativeLayout root = (RelativeLayout) findViewById(R.id.root);
         inflater.inflate(R.layout.content_main, root, true);
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         Thread t = new Thread(run);
-        t.start();
+        t.start();*/
     }
 
     public void test(){

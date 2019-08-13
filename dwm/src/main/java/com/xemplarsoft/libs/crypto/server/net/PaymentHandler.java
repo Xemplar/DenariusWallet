@@ -32,7 +32,7 @@ public class PaymentHandler implements Runnable{
 
     private NetworkListener.ServerPaymentListener payListener;
     private BigDecimal price;
-    private int startBlock;
+    private long startBlock;
     private long startTime;
     public void run() {
         this.started = true;
@@ -51,14 +51,15 @@ public class PaymentHandler implements Runnable{
         main.listener.onRequestGenerated(request.id, pin);
 
         Set<String> hasTXNote = new HashSet<>();
-        int lastBlock = startBlock - 1, currentBlock = startBlock;
+        long lastBlock = startBlock - 1;
+        long currentBlock = startBlock;
         BigDecimal bal = new BigDecimal("0.0");
         boolean paid = false;
 
         Set<String> allTX = new HashSet<>();
         while (!paid && !canceled) {
             if (currentBlock != lastBlock) {
-                List<String> received = main.link.getPayTX(pin, lastBlock, currentBlock);
+                List<String> received = main.link.getPayTX(pin, (int)lastBlock, (int)currentBlock);
                 if (received != null) {
                     hasTXNote.addAll(received);
                     allTX.addAll(received);
