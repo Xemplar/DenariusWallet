@@ -6,6 +6,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.io.PrintStream;
 
 public class ClientUI extends JFrame implements ActionListener {
@@ -59,6 +61,14 @@ public class ClientUI extends JFrame implements ActionListener {
         content.setPreferredSize(size);
 
         send.addActionListener(this);
+        input.addKeyListener(new KeyAdapter() {
+            public void keyPressed(KeyEvent e) {
+                super.keyPressed(e);
+                if(e.getKeyCode() == KeyEvent.VK_ENTER){
+                    actionPerformed(null);
+                }
+            }
+        });
 
         this.setContentPane(content);
         this.pack();

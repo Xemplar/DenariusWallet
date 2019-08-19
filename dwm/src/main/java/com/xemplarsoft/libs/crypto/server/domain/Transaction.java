@@ -34,12 +34,17 @@ public class Transaction extends Entity {
 	private String address;
 	private List<PaymentOverview> details;
 	private String hex;
+	private List<TXOut> vout;
+	private List<TXIn> vin;
 
 	public Transaction(){}
+	public Transaction(String txid){
+		setTxId(txid);
+	}
 	public Transaction(BigDecimal amount, BigDecimal fee, Integer confirmations, Boolean generated, 
 			String blockHash, Integer blockIndex, Long blockTime, String txId, 
 			List<String> walletConflicts, Long time, Long timeReceived, String comment, String address,
-			List<PaymentOverview> details, String hex) {
+			List<PaymentOverview> details, String hex, List<TXOut> vout, List<TXIn> vin) {
 		setAmount(amount);
 		setFee(fee);
 		setConfirmations(confirmations);
@@ -55,11 +60,11 @@ public class Transaction extends Entity {
 		setAddress(address);
 		setDetails(details);
 		setHex(hex);
+		setVout(vout);
+		setVin(vin);
 	}
 
-	public void setAmount(BigDecimal amount) {
-		this.amount = amount.setScale(Defaults.DECIMAL_SCALE, Defaults.ROUNDING_MODE);
-	}
+	public void setAmount(BigDecimal amount) { this.amount = amount.setScale(Defaults.DECIMAL_SCALE, Defaults.ROUNDING_MODE); }
 	public void setFee(BigDecimal fee) {
 		this.fee = fee.setScale(Defaults.DECIMAL_SCALE, Defaults.ROUNDING_MODE);
 	}
@@ -102,6 +107,8 @@ public class Transaction extends Entity {
 	public void setWalletConflicts(List<String> walletConflicts) {
 		this.walletConflicts = walletConflicts;
 	}
+	public void setVout(List<TXOut> vout) { this.vout = vout; }
+	public void setVin(List<TXIn> vin) { this.vin = vin; }
 
     public BigDecimal getAmount() {
         return amount;
@@ -130,6 +137,8 @@ public class Transaction extends Entity {
     public List<String> getWalletConflicts() {
         return walletConflicts;
     }
+    public List<TXOut> getVout() { return vout; }
+    public List<TXIn> getVin() { return vin; }
     public Long getBlockTime() {
         return blockTime;
     }

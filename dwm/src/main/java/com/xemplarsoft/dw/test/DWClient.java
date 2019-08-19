@@ -1,5 +1,6 @@
 package com.xemplarsoft.dw.test;
 
+import com.xemplarsoft.Vars;
 import com.xemplarsoft.dw.medium.CryptoHandler;
 import com.xemplarsoft.dw.medium.Main;
 import com.xemplarsoft.libs.crypto.server.domain.Entity;
@@ -18,7 +19,7 @@ import java.util.Base64;
 import java.util.Random;
 
 public class DWClient implements Runnable{
-    private static String pubkey = "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA35Q/9plE4tlJqEb+6UrNWMWM6C0j5Ru/oSTRYJ0+eIZHHpJbubZY55BdnU2diMTVnUBydzLvIRKbQtWkHCdsZRsE15dUcSJWplD5Z7pHiFrmd4qCq+rhosRbBRzBS6cYjSabPEBCuHfdp0xDMfTpUTDhaStIAkqMI7tMn+hQTNBOqZ8rXrW1KwoXBZQ1PkEHuVyrYEM1QSBzEA19C+49YMCabT6x35K7cT3qSpUOQ/MeCOArgv1KC8IeQdfV+poPq1d7NxcZw68t4G22EL40hoz05+2M2AW4S0SfD34igbDpDUFaNB6jJKq1YHLTF1Sy+9sJeM7jFd7KNMJsPvhBeOgL7Yt8vtmxR7l6AP7RxRZ3kjCJdkolpXMoXBHAC1DYaYWzIYjA5A9ypvtKdCtRbmF+MUAFyWo7tEp+pFrxiPnD0/4xMruw9FRh9mLTj7pc6sFpFc5CBlBVK1KBXgxubtx0pEwbcYblj9j2N3CC4p3pPgpv8so0f+wY32xXEi9Tm3x6Y2Vmh5jbg8wX4P2q+4RHJEvOhpZvd4TN5AWn3MVGtTTEYeB3D1G+Eq7+URspw11Ra3o3p2XsKXZbSXnSopzW4JBDC/NVgl+0Y6ErhNEjfqvr0odnQToItOer3KKvJtLwMAXSVVCMyTeBL13CyZ1EYLxWuvC7Sdpcj/h53wcCAwEAAQ==";
+    private static String pubkey = Vars.pubkey;
     protected PublicKey async;
     protected SecretKey sync;
     protected String chall;
@@ -82,7 +83,6 @@ public class DWClient implements Runnable{
             }
         }
     }
-
     public synchronized void write(String message){
         try {
             writer.write(message + "\n");
@@ -91,7 +91,6 @@ public class DWClient implements Runnable{
             e.printStackTrace();
         }
     }
-
     public synchronized void encryptAndWrite(String message){
         try {
             String str = CryptoHandler.encryptMessage(message, sync);
@@ -101,7 +100,6 @@ public class DWClient implements Runnable{
             e.printStackTrace();
         }
     }
-
     public void loginToNetwork(int step, String response){
         if(step == 0){
             System.out.println("INFO: Attempting to login to network.");
@@ -143,11 +141,9 @@ public class DWClient implements Runnable{
             }
         }
     }
-
     public boolean isReady() {
         return isReady;
     }
-
     public void processMessage(String message){
         System.out.println("INFO: Message Received");
         String[] dat = message.split(":");
