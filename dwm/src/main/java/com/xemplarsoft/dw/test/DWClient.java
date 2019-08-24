@@ -13,6 +13,7 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.math.BigDecimal;
 import java.net.Socket;
 import java.security.PublicKey;
 import java.util.Base64;
@@ -170,6 +171,7 @@ public class DWClient implements Runnable{
     public void processCommand(String command){
         System.out.println("COMMAND: " + command);
         String[] dat = command.split("#");
+        String[] tad = command.split(" ");
         if(dat.length > 1){
             try {
                 Class c = Class.forName("com.xemplarsoft.libs.crypto.server.domain." + dat[0]);
@@ -179,8 +181,33 @@ public class DWClient implements Runnable{
             } catch (Exception e){
                 e.printStackTrace();
             }
-        } else {
+        } else if(tad.length > 1){
+            switch (tad[0]){
+                case "balance":{
+                    String address = tad[2];
+                    BigDecimal amount = new BigDecimal(tad[3]);
+                    if(tad[1].equals("received")){
+                        System.out.println(address + " received " + amount.toPlainString() + "D");
+                    } else if(tad[1].equals("staked")){
+                        System.out.println(address + " staked " + amount.toPlainString() + "D");
+                    } else if(tad[1].equals("sent")){
+                        System.out.println(address + " sent " + amount.toPlainString() + "D");
+                    } else if(tad[1].equals("total")){
+                        if(address.equals("wallet")){
+                            System.out.println("Your total balance is " + amount.toPlainString() + "D");
+                        } else {
+                            System.out.println(address + " has a total balance of " + amount.toPlainString() + "D");
+                        }
+                    }
+                    break;
+                }
 
+                case "addresses":{
+                    String[] addresses = tad[1].split(":");
+                    for(String s : addresses) System.out.println("  " + s);
+                    break;
+                }
+            }
         }
     }
 
@@ -189,9 +216,9 @@ public class DWClient implements Runnable{
             reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             writer = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
 
-            byte[] decoded = Base64.getDecoder().decode("KQUO2Idqqe8HRXVPjWtCt9j1uylmbCZEzfGUBRoP5ik=");
+            byte[] decoded = Base64.getDecoder().decode("jsHjwrDrUnMlG6y+5qdsqVzntp+trHOPF5GXLui+5f0=");
             this.sync = new SecretKeySpec(decoded, 0, decoded.length, "AES");
-            this.UID = -3444532078340020660L;
+            this.UID = 5375409349650691407L;
         } catch (Exception e){
             e.printStackTrace();
             return;

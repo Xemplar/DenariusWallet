@@ -11,77 +11,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfc07106-e589-40c7-b737-7ee93bb49ed2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/tribus/KeyManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/tribus/KeySet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/tribus/Tribus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/util/Base58.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/util/BigIntegerPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/util/Ripemd160.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/util/Sha256.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/util/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/KeyManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/KeySet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/util/BigIntegerPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/util/Ripemd160.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/util/Sha256.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DenariusWallet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DenariusWallet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/dw/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/dw/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dat.db" beforeDir="false" afterPath="$PROJECT_DIR$/dat.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DBHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DBHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DWClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DWClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DWClientManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DWClientManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DWClientManager$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DWClientManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DWClientManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DWServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DWServerHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/test/ClientUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/test/ClientUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/test/DWClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/test/DWClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/common/HttpRest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/common/NetworkListener$ClientPaymentAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/common/NetworkListener$ClientPaymentListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/common/NetworkListener$ClientRequestListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/common/NetworkListener$CryptoClientService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/common/NetworkListener$CryptoServerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/common/NetworkListener$CryptoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/common/NetworkListener$ServerPaymentListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/common/NetworkListener$ServerRequestListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/common/NetworkListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/server/domain/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/server/domain/Transaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/server/net/CryptoLink.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/server/net/CryptoRest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/server/net/CryptoServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/server/net/CryptoServer$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/server/net/CryptoServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/server/net/LiveVarHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/server/net/LiveVarHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/server/net/PaymentHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/crypto/server/net/domain/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/tribus/Base58.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/tribus/Tribus$CTX_ECHO.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/tribus/Tribus$CTX_ECHO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/tribus/Tribus$CTX_JH.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/tribus/Tribus$CTX_JH.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/tribus/Tribus.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/tribus/Tribus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/tribus/KeySet.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/tribus/KeySet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DBHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DBHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/test/ClientUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/test/ClientUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/test/DWClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/test/DWClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/common/HttpRest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/common/NetworkListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/domain/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/domain/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/net/CryptoLink.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/net/CryptoRest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/net/CryptoServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/net/LiveVarHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/net/PaymentHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/net/domain/Request.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/Base58.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/util/Base58.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/Tribus.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/Tribus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/KeySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/KeySet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dwm/.gradle/" />
     <ignored path="$PROJECT_DIR$/dwm/build/" />
@@ -128,11 +75,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
+            <state relative-caret-position="127">
+              <caret line="65" column="46" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4520#4521#0" expanded="true" />
+                <element signature="e#4548#4549#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/io/JTextAreaOutputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/Vars.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -140,25 +107,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/test/DWClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+            <state relative-caret-position="246">
+              <caret line="188" column="46" selection-start-line="188" selection-start-column="38" selection-end-line="188" selection-end-column="46" />
               <folding>
-                <element signature="method#registerOnNetwork#0;class#DWClient#0" />
                 <element signature="method#write#0;class#DWClient#0" />
                 <element signature="method#loginToNetwork#0;class#DWClient#0" />
-                <element signature="method#processMessage#0;class#DWClient#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DBHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="101" column="37" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -167,60 +120,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding>
-                <element signature="e#6124#6125#0" expanded="true" />
-                <element signature="e#6157#6158#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/domain/TXScriptSig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="195">
+              <caret line="152" column="14" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/domain/Transaction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-              <folding>
-                <element signature="e#1150#1151#0" expanded="true" />
-                <element signature="e#1166#1167#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/domain/TXOut.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/domain/TXScriptPubKey.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#7118#7119#0" expanded="true" />
+                <element signature="e#7168#7169#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -229,21 +134,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+            <state relative-caret-position="198">
+              <caret line="178" column="36" selection-start-line="178" selection-start-column="36" selection-end-line="178" selection-end-column="36" />
               <folding>
-                <element signature="method#registerOnNetwork#0;class#DWClientHandler#0" />
                 <element signature="method#loginOnNetwork#0;class#DWClientHandler#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/Vars.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            <state>
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/KeySet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getCompressedAddress#0;class#KeySet#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/KeyManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#1662#1663#0" expanded="true" />
+                <element signature="e#1718#1719#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -280,6 +222,13 @@
       <find>031bfa22</find>
       <find>2292486</find>
       <find>getTr</find>
+      <find>System.out.println</find>
+      <find>System.out</find>
+      <find>addBala</find>
+      <find>addBalance</find>
+      <find>import</find>
+      <find>sendto</find>
+      <find>listener.</find>
     </findStrings>
     <replaceStrings>
       <replace>import com.xemplarsoft.libs.crypto.commoon.Errors;</replace>
@@ -287,6 +236,7 @@
       <replace>import com.xemplarsoft.libs.crypto.common.Defaults;</replace>
       <replace>import com.xemplarsoft.libs.crypto.server.domain.Errors;</replace>
       <replace>import com.xemplarsoft.libs.crypto.server.domain.Defaults;</replace>
+      <replace>//System.out</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -295,8 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/crypto/server/domain/Account.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/crypto/server/domain/Errors.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/crypto/server/domain/enums/BlockStatuses.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/crypto/server/domain/AddressOverview.java" />
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/util/CollectionUtils.java" />
@@ -309,7 +257,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/crypto/server/domain/JsonPrimitiveParser.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/crypto/common/JsonPrimitiveParser.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/crypto/common/AddressOverviewDeserializer.java" />
-        <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWServerHandler.java" />
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/CryptoHandler.java" />
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/Base56.java" />
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/net/PaymentHandler.java" />
@@ -327,7 +274,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/dw/MainActivity.java" />
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/AddressManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/tribus/AddressManager.java" />
-        <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/KeySet.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/tribus/KeyManager.java" />
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/KeyManager.java" />
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/test/ClientUI.java" />
@@ -341,19 +287,23 @@
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/domain/TXIn.java" />
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/link/CryptoLinkRPCImpl.java" />
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DBHandler.java" />
+        <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/jsonrpc/client/JsonRpcClientImpl.java" />
+        <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/KeySet.java" />
+        <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/test/DWClient.java" />
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientManager.java" />
+        <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWServerHandler.java" />
+        <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientListener.java" />
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientHandler.java" />
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/Main.java" />
-        <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/test/DWClient.java" />
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/Vars.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="119" />
-    <option name="y" value="-19" />
-    <option name="width" value="1932" />
-    <option name="height" value="1045" />
+    <option name="x" value="-57" />
+    <option name="y" value="-15" />
+    <option name="width" value="1934" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -361,8 +311,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -561,7 +512,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xemplarsoft" type="462c0819:PsiDirectoryNode" />
               <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DenariusWallet" type="b2602c69:ProjectViewProjectNode" />
@@ -572,52 +523,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xemplarsoft" type="462c0819:PsiDirectoryNode" />
               <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="crypto" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DenariusWallet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DenariusWallet" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="dwm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xemplarsoft" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="crypto" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DenariusWallet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DenariusWallet" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="dwm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xemplarsoft" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="crypto" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DenariusWallet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DenariusWallet" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="dwm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xemplarsoft" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="crypto" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="link" type="462c0819:PsiDirectoryNode" />
+              <item name="tribus" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -653,7 +564,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DWServer">
+  <component name="RunManager" selected="Application.DWClient">
     <configuration default="true" type="AndroidJUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -723,9 +634,8 @@
     </configuration>
     <configuration name="DWClient" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.xemplarsoft.dw.test.DWClient" />
-      <module name="dwm.main" />
+      <module name="com.xemplarsoft.dwm.main" />
       <method v="2">
-        <option name="MakeProject" enabled="true" />
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -821,39 +731,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/CryptoHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/net/PaymentHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="61" column="85" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/net/LiveVarHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/util/Sha256.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/util/Ripemd160.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -861,13 +738,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/math/BigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="3040" column="22" selection-start-line="3040" selection-start-column="22" selection-end-line="3040" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -994,48 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/KeySet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1723#1724#0" expanded="true" />
-            <element signature="e#1792#1793#0" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
-            <element signature="e#1868#1869#0" expanded="true" />
-            <element signature="e#1905#1906#0" expanded="true" />
-            <element signature="e#1942#1943#0" expanded="true" />
-            <element signature="e#1975#1976#0" expanded="true" />
-            <element signature="e#2042#2043#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/tribus/KeySet.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/tribus/KeyManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/KeyManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#1662#1663#0" expanded="true" />
-            <element signature="e#1718#1719#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.9/8f1cb192e229bc4cd1c900c51171d96706e6d195/commons-lang3-3.9-sources.jar!/org/apache/commons/lang3/StringEscapeUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1075,13 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/RPCHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1089,34 +910,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/net/CryptoLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/common/NetworkListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/common/HttpRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="43" column="80" selection-start-line="43" selection-start-column="80" selection-end-line="43" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/net/CryptoLink.java" />
+    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/common/NetworkListener.java" />
+    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/common/HttpRest.java" />
     <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/domain/Block.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1189,40 +985,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DBHandler.java">
+    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/CryptoHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="101" column="37" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#6124#6125#0" expanded="true" />
-            <element signature="e#6157#6158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/link/CryptoLinkRPCImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="535" column="93" selection-start-line="535" selection-start-column="93" selection-end-line="535" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="203">
+          <caret line="106" column="28" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/domain/TXScriptSig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="221">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1230,12 +1002,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DBHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/Commands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/link/CryptoLinkRPCImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10251">
+          <caret line="622" column="18" selection-start-line="622" selection-start-column="18" selection-end-line="622" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/tribus/KeyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/tribus/KeySet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/jsonrpc/client/JsonRpcClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="61" column="93" selection-start-line="61" selection-start-column="93" selection-end-line="61" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/KeySet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getCompressedAddress#0;class#KeySet#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/KeyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
+            <element signature="e#1718#1719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="2625" column="15" selection-start-line="2625" selection-start-column="15" selection-end-line="2625" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/test/DWClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="188" column="46" selection-start-line="188" selection-start-column="38" selection-end-line="188" selection-end-column="46" />
+          <folding>
+            <element signature="method#write#0;class#DWClient#0" />
+            <element signature="method#loginToNetwork#0;class#DWClient#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="152" column="14" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7118#7119#0" expanded="true" />
+            <element signature="e#7168#7169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        <state relative-caret-position="198">
+          <caret line="178" column="36" selection-start-line="178" selection-start-column="36" selection-end-line="178" selection-end-column="36" />
           <folding>
-            <element signature="method#registerOnNetwork#0;class#DWClientHandler#0" />
             <element signature="method#loginOnNetwork#0;class#DWClientHandler#0" />
           </folding>
         </state>
@@ -1243,31 +1128,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
+        <state relative-caret-position="127">
+          <caret line="65" column="46" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4520#4521#0" expanded="true" />
+            <element signature="e#4548#4549#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/test/DWClient.java">
+    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/io/JTextAreaOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding>
-            <element signature="method#registerOnNetwork#0;class#DWClient#0" />
-            <element signature="method#write#0;class#DWClient#0" />
-            <element signature="method#loginToNetwork#0;class#DWClient#0" />
-            <element signature="method#processMessage#0;class#DWClient#0" />
-          </folding>
+        <state relative-caret-position="127">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/Vars.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

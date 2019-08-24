@@ -11,6 +11,7 @@ import com.xemplarsoft.libs.crypto.server.link.CryptoLinkRPC;
 import com.xemplarsoft.libs.crypto.server.link.CryptoLinkRPCImpl;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.Base64;
 
 public class Main implements DWClientListener{
@@ -47,10 +48,44 @@ public class Main implements DWClientListener{
                         break;
                     }
 
-                    case "sendtoaddress":{
-                        String d = link.sendToAddress(dat[1], new BigDecimal(dat[2]));
-                        System.out.println("PERFORMED: " + d);
-                        handler.writeToClient(UID, d);
+                    case "importprivkey":{
+                        System.out.println("INFO: Client " + UID + " added new address.");
+                        link.importPrivKey(dat[1], "" + UID, false);
+                        break;
+                    }
+
+                    case "pay":{
+                        String address = dat[1];
+                        BigDecimal amt = new BigDecimal(dat[2]);
+                        BigDecimal total = amt.add(new BigDecimal("0.00001"));
+
+                        BigDecimal balance = DWClientHandler.manager.getBalance(UID);
+                        if(balance.compareTo(total) >= 0){
+                            //Double checks can't hurt
+                            String txid = link.sendToAddress(address, amt);
+                            if(txid != null) {
+                                BigDecimal left = new BigDecimal(total.toPlainString());
+                                ArrayList<String> addresses = DWClientHandler.manager.getAddresses(UID);
+                                int index = 0;
+                                while(left.compareTo(new BigDecimal("0.0")) > 0){
+                                    BigDecimal balCur = DWClientHandler.manager.getBalance(addresses.get(index));
+                                    if(left.compareTo(balCur) <= 0){
+                                        DWClientHandler.manager.subBalance(addresses.get(index), left);
+                                        left = new BigDecimal("0.0");
+                                    } else {
+                                        DWClientHandler.manager.subBalance(addresses.get(index), balCur);
+                                        total = total.subtract(balCur);
+                                    }
+                                    index++;
+                                }
+                                handler.writeToClient(UID, "pay successful " + txid);
+                            } else {
+                                handler.writeToClient(UID, "pay failed");
+                            }
+                        } else {
+                            handler.writeToClient(UID, "pay failed");
+                        }
+                        break;
                     }
                 }
             }

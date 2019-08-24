@@ -16,6 +16,7 @@ public class DWServerHandler implements Runnable {
         this.t2 = new Thread(this::run2);
         this.clients = new ArrayList<>();
         this.listener = listener;
+        DWClientHandler.manager.setServerHandler(this);
     }
 
     public synchronized void start(){
@@ -60,8 +61,11 @@ public class DWServerHandler implements Runnable {
     public void run2(){
         while(isRunning){
             DWClientHandler delete = null;
-            for(DWClientHandler handle : clients){
-                if(handle.delete) delete = handle;
+            for(int i = 0; i < clients.size(); i++){
+                if(clients.get(i).delete){
+                    delete = clients.get(i);
+                    break;
+                }
             }
 
             if(delete != null){

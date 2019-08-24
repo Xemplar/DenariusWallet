@@ -38,6 +38,14 @@ public class KeySet {
 
             pubkey = "1E" + sx + sy;
             privkey = sepvt;
+
+            System.out.println("Private Key: " + privkey);
+            System.out.println("Public Key: " + pubkey);
+            System.out.println("Compressed: " + KeyManager.compressPublicKey(pubkey));
+
+            System.out.println("WIF Address: " + KeyManager.convertPrivToWIF(privkey));
+            System.out.println("Public Address: " + KeyManager.convertPubToAddress(pubkey));
+            System.out.println("Compressed Address: " + KeyManager.convertPubToAddress(KeyManager.compressPublicKey(pubkey)));
         } catch (Exception e){
             e.printStackTrace();
             pubkey = privkey = null;
@@ -49,15 +57,18 @@ public class KeySet {
     public String getAddress() {
         return KeyManager.convertPubToAddress(pubkey);
     }
-
+    public String getCompressedAddress() {
+        return KeyManager.convertPubToAddress(KeyManager.compressPublicKey(pubkey));
+    }
     public String getPrivkey() {
         return privkey;
     }
-
     public String getPubkey() {
         return pubkey;
     }
-
+    public String getCompressedPubkey() {
+        return KeyManager.compressPublicKey(pubkey);
+    }
     public String getWIF(){
         return KeyManager.convertPrivToWIF(privkey);
     }

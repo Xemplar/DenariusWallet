@@ -1,7 +1,5 @@
 package com.xemplarsoft.dw.medium;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 import java.sql.*;
 
 public class DBHandler{
@@ -16,15 +14,12 @@ public class DBHandler{
             System.exit(0);
         }
         System.out.println("Opened database successfully");
+        initialize();
     }
 
-    public ResultSet executeQuery(String s){
+    public Statement getStatement(){
         try {
-            query = c.createStatement();
-            ResultSet ret = query.executeQuery(s);
-            query.close();
-
-            return ret;
+            return c.createStatement();
         } catch (Exception e){
             e.printStackTrace();
             return null;
@@ -40,18 +35,21 @@ public class DBHandler{
     }
 
     public void putValue(String key, String value){
-        ResultSet res = executeQuery("SELECT `IDENT` FROM VARS WHERE IDENT='" + key + "'");
-        String test = "";
         try {
+            Statement query = getStatement();
+            ResultSet res = query.executeQuery("SELECT `IDENT` FROM VARS WHERE `IDENT`='" + key + "'");
+            String test = "";
+
             if (res.next()) {
                 test = res.getString("IDENT");
             }
             res.close();
+            query.close();
 
             if(key.equals(test)){
-                executeUpdate("UPDATE VARS set VALUE='" + value + "' WHERE IDENT='" + key + "'");
+                executeUpdate("UPDATE VARS set `VALUE`='" + value + "' WHERE `IDENT`='" + key + "'");
             } else {
-                executeUpdate("INSERT INTO VARS (IDENT,VALUE) VALUES ('" + key + "','" + value + "')");
+                executeUpdate("INSERT INTO VARS (`IDENT`,`VALUE`) VALUES ('" + key + "','" + value + "')");
             }
         } catch (Exception e){
             e.printStackTrace();
@@ -59,13 +57,13 @@ public class DBHandler{
     }
 
     public String getValue(String key){
-        ResultSet res = executeQuery("SELECT `VALUE` FROM VARS WHERE IDENT='" + key + "'");
-        String test = "";
         try {
-            if (res.next()) {
-                test = res.getString("VALUE");
-            }
+            Statement query = getStatement();
+            ResultSet res = query.executeQuery("SELECT `VALUE` FROM `VARS` WHERE `IDENT`='" + key + "'");
+            String test = "";
+            test = res.getString("VALUE");
             res.close();
+            query.close();
 
             return test;
         } catch (Exception e){
@@ -74,10 +72,10 @@ public class DBHandler{
         }
     }
 
-    public void initalize(){
+    public void initialize(){
         try {
             query = c.createStatement();
-            String sql = "CREATE TABLE USERS " +
+            String sql = "CREATE TABLE IF NOT EXISTS USERS " +
                     "(UID BIGINT PRIMARY KEY             NOT NULL," +
                     " ADDRESSES          TEXT            NOT NULL, " +
                     " EMAIL              VARCHAR(64), " +
@@ -86,20 +84,20 @@ public class DBHandler{
             query.close();
 
             query = c.createStatement();
-            sql = "CREATE TABLE VARS " +
-                    "(ID INT PRIMARY KEY             NOT NULL," +
+            sql = "CREATE TABLE IF NOT EXISTS VARS " +
+                    "(ID INTEGER PRIMARY KEY             NOT NULL," +
                     " IDENT          VARCHAR(64)     NOT NULL, " +
-                    " VALUE          TEXT";
+                    " VALUE          TEXT)";
             query.executeUpdate(sql);
             query.close();
 
             query = c.createStatement();
-            sql = "CREATE TABLE ADDRESSES " +
-                    "(ID INT PRIMARY KEY           NOT NULL," +
+            sql = "CREATE TABLE IF NOT EXISTS ADDRESSES " +
+                    "(ID INTEGER PRIMARY KEY           NOT NULL," +
                     " UID            BIGINT        NOT NULL," +
                     " ADDRESS        VARCHAR(64)   NOT NULL," +
                     " BALANCE        VARCHAR(128)  NOT NULL," +
-                    " TXS            ";
+                    " TXS            TEXT)";
             query.executeUpdate(sql);
             query.close();
         } catch (Exception e){

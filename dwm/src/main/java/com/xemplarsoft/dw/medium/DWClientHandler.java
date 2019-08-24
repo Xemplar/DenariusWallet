@@ -1,12 +1,15 @@
 package com.xemplarsoft.dw.medium;
 
 import com.xemplarsoft.Vars;
+import com.xemplarsoft.libs.crypto.server.domain.Address;
 import com.xemplarsoft.libs.tribus.KeyManager;
+import com.xemplarsoft.libs.tribus.KeySet;
 import com.xemplarsoft.libs.util.StringUtils;
 
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 import java.io.*;
+import java.math.BigDecimal;
 import java.net.Socket;
 import java.net.SocketException;
 import java.security.PrivateKey;
@@ -157,8 +160,32 @@ public class DWClientHandler implements Runnable {
             listener.dataReceived(UID, com.trim());
         } else if(dat[0].equals("newkey")) {
             if(dat[1].equals("local")){
-                String pubkey = dat[2];
-                String address = KeyManager.convertPubToAddress(pubkey);
+                newLocalKey(dat[2]);
+                encryptAndWrite("Address Received");
+            } else if(dat[1].equals("remote")){
+                encryptAndWrite(newRemoteKey());
+            }
+        } else if(dat[0].equals("getbalance")){
+            if(dat.length == 1) {
+                encryptAndWrite("balance total wallet " + manager.getBalance(UID).toPlainString());
+            } else {
+                encryptAndWrite("balance total " + dat[1] + " " + manager.getBalance(dat[1]).toPlainString());
+            }
+        } else if(dat[0].equals("getaddresses")){
+            ArrayList<String> addresses = manager.getAddresses(UID);
+            String resp = "";
+            for(String s : addresses) resp += s + " ";
+            encryptAndWrite("addresses " + resp.trim().replace(' ', ':'));
+        } else if(dat[0].equals("pay")){
+            String address = dat[1];
+            BigDecimal amt = new BigDecimal(dat[2]);
+            BigDecimal total = amt.add(new BigDecimal("0.00001"));
+
+            BigDecimal balance = manager.getBalance(UID);
+            if(balance.compareTo(total) >= 0){
+                listener.dataReceived(UID, "pay " + address + " " + amt.toPlainString());
+            } else {
+                encryptAndWrite("pay failed");
             }
         }
     }
@@ -185,10 +212,30 @@ public class DWClientHandler implements Runnable {
         }
     }
 
+    public void newLocalKey(String address){
+        manager.putAddress(address, UID);
+    }
+
+    public String newRemoteKey(){
+        KeySet set = KeySet.generateAddress();
+        listener.dataReceived(UID, "importprivkey " + set.getWIF());
+        newLocalKey(set.getCompressedAddress());
+        return set.getCompressedAddress();
+    }
+
     public synchronized void write(String message){
         System.out.println("INFO: Sending Message");
         try {
             out.write(message + "\n");
+            out.flush();
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+    public synchronized void encryptAndWrite(String message){
+        try {
+            String str = CryptoHandler.encryptMessage(message, sync);
+            out.write(str + "\n");
             out.flush();
         } catch (Exception e){
             e.printStackTrace();
