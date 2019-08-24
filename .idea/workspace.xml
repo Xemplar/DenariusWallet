@@ -11,24 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfc07106-e589-40c7-b737-7ee93bb49ed2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dat.db" beforeDir="false" afterPath="$PROJECT_DIR$/dat.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DBHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DBHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DWClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DWClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DWClientManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DWClientManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DWClientManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DWServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/DWServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/medium/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/test/DWClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/dw/test/DWClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/tribus/KeySet.class" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/out/production/classes/com/xemplarsoft/libs/tribus/KeySet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DBHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DBHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/test/DWClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/test/DWClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/KeySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/KeySet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dwm/.gradle/" />
     <ignored path="$PROJECT_DIR$/dwm/build/" />
@@ -95,11 +80,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/Vars.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -148,19 +142,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="34" selection-start-column="34" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/tribus/KeySet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getCompressedAddress#0;class#KeySet#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -245,7 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/crypto/server/domain/enums/BlockStatuses.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/xemplarsoft/libs/crypto/server/domain/AddressOverview.java" />
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/util/CollectionUtils.java" />
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/crypto/server/util/NumberUtils.java" />
@@ -296,6 +276,7 @@
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/DWClientHandler.java" />
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/dw/medium/Main.java" />
         <option value="$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/Vars.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -731,16 +712,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dwm/src/main/java/com/xemplarsoft/libs/util/Ripemd160.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/awt/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1149,6 +1120,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
